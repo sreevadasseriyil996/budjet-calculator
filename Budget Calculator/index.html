@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Calculator</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  
+  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+ 
+         
+ 
+    <section class='login' id='login'>
+      <center><h1 class='company'>Budjet Calculator</h1>
+        <h5>A complete planner for your budjet</h5></center> 
+      <div class=''>
+       
+      </div>
+     
+     <div style="display: flex;"> 
+      <div class='form'>
+         
+    
+    <h3>Your Salary</h3>
+    <p class="hide error" id="budget-error">
+    
+    </p>
+      <input type="text" placeholder='' class='text' id="total-amount"  ><br>
+     <br><br>
+      <button type="submit" class='btn-login' id="total-amount-button">Add</button>
+      
+        
+      </div>
+      
+    
+      <div></div>
+      <div class='form' style="margin-left: 100px;">
+<div style="display: flex;">
+  <div>  <h4>Grocery</h4>
+    <input type="text" placeholder='' class='text' id="user-amount" ><br>
+   <br><br>
+   <h4>Food</h4>
+   <input type="text" placeholder='' class='text' id="user-food" ><br>
+  <br><br>
+  <h4>Loans</h4>
+  <input type="text" placeholder='' class='text' id="user-loan"  ><br>
+ <br><br> <h4>Medical Insurance</h4>
+ <input type="text" placeholder='' class='text' id="user-ins"  ><br>
+<br><br></div>
+
+
+
+
+  <div style="margin-left: 200px;"> <h4>Clothing</h4>
+    <input type="text" placeholder='' class='text' id="user-cloth" ><br>
+   <br><br> <h4>Transportation</h4>
+   <input type="text" placeholder='' class='text' id="user-tran"  ><br>
+  <br><br>
+  <h4>Savings</h4>
+  <input type="text" placeholder='' class='text' id="user-sav"  ><br>
+ <br><br>
+ <h4>Other Bills/Entertainments</h4>
+   <input type="text" placeholder='' class='text' id="user-ent"  ><br>
+  <br><br></div>
+</div>
+         
+        
+<button class="submit" id="check-amount">Check Amount</button>
+</div>
+</div>
+<br><br>
+<div>
+  <center><button   style="display: flex; background-color: rgb(119, 155, 94);margin-left: 100px; " >
+    <div style="margin-left: 100px;" >
+      <p>Total Budget</p>
+      <span id="amount">0</span>
+    </div>
+    <div style="margin-left: 100px;" >
+      <p>Expenses</p>
+      <span id="expenditure-value">0</span>
+    </div>
+    <div style="margin-left: 100px;" >
+      <p>Monthly Balance</p>
+      <span id="balance-amount">0</span>
+    </div>
+  </button></center>
+   
+</section>
+    <script src="script.js"></script>
+  </body>
+</html>
